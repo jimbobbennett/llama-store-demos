@@ -1,0 +1,7 @@
+[MAIN]
+module-naming-style=any
+disable=R0801
+
+[SIMILARITIES]
+min-similarity-lines=20
+ignore-imports=true
