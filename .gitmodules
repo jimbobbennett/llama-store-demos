@@ -1,0 +1,3 @@
+[submodule "llama-store"]
+	path = llama-store
+	url = https://github.com/liblaber/llama-store
