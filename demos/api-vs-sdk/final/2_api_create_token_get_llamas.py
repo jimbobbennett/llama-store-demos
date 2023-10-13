@@ -18,10 +18,6 @@ token_request = {
 token_response = requests.post(BASE_URL + "token", json=token_request, timeout=5)
 token_response_json = token_response.json()
 
-# Show the response
-print(f"Response status code: {token_response.status_code}")
-print(json.dumps(token_response_json, indent=2))
-
 # Get the token from the response
 token = token_response_json["access_token"]
 headers = {"Authorization": f"Bearer {token}"}

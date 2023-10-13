@@ -9,7 +9,7 @@ BASE_URL = "http://localhost:8000/"
 
 # Build the new user as a JSON object
 new_user = {
-    "email": "llama@liblab.com",
+    "username": "llama",
     "password": "Llama123!",
 }
 
