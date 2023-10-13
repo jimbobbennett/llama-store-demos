@@ -23,7 +23,7 @@ token = token_response_json
 headers = {"Authorization": f"Bearer {token}"}
 
 # Get the llamas
-# llamas_response = requests.get(BASE_URL + "llama", timeout=5)
+# llamas_response = requests.get(BASE_URL + "llama", timeout=5, headers=headers)
 # print(f"Response status code: {llamas_response.status_code}")
 # print(json.dumps(llamas_response.json(), indent=2))
 
