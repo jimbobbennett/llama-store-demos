@@ -30,6 +30,12 @@ You can then run the llama store using the helper script:
 ./scripts/run-llama-store.sh
 ```
 
+You can reset the llama store by re-running the setup script. This will delete any newly created users, restore the llamas and return the database to its initial state. You will need to stop the API before running this script, then restart it afterwards.
+
+```bash
+./scripts/setup-llama-store.sh
+```
+
 ## Generate an SDK for the llama store
 
 An SDK for the llama store can be generated using the [liblab CLI](https://developers.liblab.com/cli/cli-overview). This can be installed using `npm`:
